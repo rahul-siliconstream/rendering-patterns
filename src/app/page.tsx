@@ -11,6 +11,7 @@ export default function Home() {
         <Link href='/server'><button className={styles.button}>Server Side Rendering</button></Link>
         <Link href='/ssg'><button className={styles.button}>Static Site Generation</button></Link>
         <Link href='/isr'><button className={styles.button}>Incremental Static Generation</button></Link>
+        <Link href='/sssr'><button className={styles.button}>Streaming SSR</button></Link>
       </main>
     </div>
   );
