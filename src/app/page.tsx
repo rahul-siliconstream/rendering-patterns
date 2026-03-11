@@ -9,6 +9,7 @@ export default function Home() {
       <main className={styles.main}>
         <Link href='/client'><button className={styles.button}>Client Side Rendering</button></Link>
         <Link href='/server'><button className={styles.button}>Server Side Rendering</button></Link>
+        <Link href='/ssg'><button className={styles.button}>Static Site Generation</button></Link>
       </main>
     </div>
   );

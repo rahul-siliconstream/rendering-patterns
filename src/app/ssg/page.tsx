@@ -1,8 +1,8 @@
 import './style.css';
 
-export default async function ServerComp(){
+export default async function SsgComp(){
 
-    const jsonData = await fetch('https://jsonplaceholder.typicode.com/posts/1', { cache: 'no-store'})
+    const jsonData = await fetch('https://jsonplaceholder.typicode.com/posts/1')
     const data = await jsonData.json();
 
   return (
