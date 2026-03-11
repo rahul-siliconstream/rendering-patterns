@@ -10,6 +10,7 @@ export default function Home() {
         <Link href='/client'><button className={styles.button}>Client Side Rendering</button></Link>
         <Link href='/server'><button className={styles.button}>Server Side Rendering</button></Link>
         <Link href='/ssg'><button className={styles.button}>Static Site Generation</button></Link>
+        <Link href='/isr'><button className={styles.button}>Incremental Static Generation</button></Link>
       </main>
     </div>
   );
